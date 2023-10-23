@@ -49,7 +49,8 @@ numero1 = parseInt(prompt("Dame un numero"));
 if (numero1 % 2 === 0)
   document.write("<br>El numero " + numero1 + " es divisible por 2");
 else document.write("<br>El numero " + numero1 + " no es divisible por 2");
-// Ejercicio 9
+// Ejercicio 9 
+// No sabia si podia usar bucles asi que me termine deciciendo por hacerlo asi jajaja
 let frase = prompt("Elige una frase de un maximo de 20 caracteres");
 let i = 0;
 if (
