@@ -50,7 +50,487 @@ if (numero1 % 2 === 0)
   document.write("<br>El numero " + numero1 + " es divisible por 2");
 else document.write("<br>El numero " + numero1 + " no es divisible por 2");
 // Ejercicio 9
-
+let frase = prompt("Elige una frase de un maximo de 20 caracteres");
+let i = 0;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 1;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 2;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 3;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 4;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 5;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 6;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 7;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 8;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 9;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 10;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 11;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 12;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 13;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 14;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 15;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 16;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 17;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 18;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
+i = 19;
+if (
+  frase.charAt(i) == "a" ||
+  frase.charAt(i) == "e" ||
+  frase.charAt(i) == "i" ||
+  frase.charAt(i) == "o" ||
+  frase.charAt(i) == "u" ||
+  frase.charAt(i) == "A" ||
+  frase.charAt(i) == "E" ||
+  frase.charAt(i) == "I" ||
+  frase.charAt(i) == "O" ||
+  frase.charAt(i) == "U" ||
+  frase.charAt(i) == "á" ||
+  frase.charAt(i) == "é" ||
+  frase.charAt(i) == "í" ||
+  frase.charAt(i) == "ó" ||
+  frase.charAt(i) == "ú" ||
+  frase.charAt(i) == "Á" ||
+  frase.charAt(i) == "É" ||
+  frase.charAt(i) == "Í" ||
+  frase.charAt(i) == "Ó" ||
+  frase.charAt(i) == "Ú"
+)
+  document.write(frase.charAt(i));
 // Ejercicio 10
 numero1 = parseInt(prompt("Dame un numero"));
 if (numero1 % 2 === 0)
