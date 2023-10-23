@@ -23,32 +23,37 @@ alert("un mensaje");
 document.write("<h2>Hello World</h2>");
 // Ejercicio 3
 document.write(3 + 5);
+document.write("<br>")
 // Ejercicio 4
 let nombreUsuario = prompt("Escribe un nombre de usuario");
 alert("Hola " + nombreUsuario);
 // Ejercicio 5
 numero1 = parseInt(prompt("Dame un numero"));
 numero2 = parseInt(prompt("Dame otro numero"));
-document.write("<br>El total es de: " + (numero1 + numero2));
+document.write("El total es de: " + (numero1 + numero2));
+document.write("<br>")
 // Ejercicio 6
 numero1 = parseInt(prompt("Dame un numero"));
 numero2 = parseInt(prompt("Dame otro"));
-if (numero1 > numero2) document.write("<br>El numero mayor es el " + numero1);
-else document.write("<br>El numero mayor es el " + numero2);
+if (numero1 > numero2) document.write("El numero mayor es el " + numero1);
+else document.write("El numero mayor es el " + numero2);
+document.write("<br>")
 // Ejercicio 7
 numero1 = parseInt(prompt("Dame un numero"));
 numero2 = parseInt(prompt("Dame otro"));
 let numero3 = parseInt(prompt("Dame uno mas"));
 if (numero1 > numero2 && numero1 > numero3)
-  document.write("<br>El numero mayor es el " + numero1);
+  document.write("El numero mayor es el " + numero1);
 else if (numero2 > numero3)
-  document.write("<br>El numero mayor es el " + numero2);
-else document.write("<br>El numero mayor es el " + numero3);
+  document.write("El numero mayor es el " + numero2);
+else document.write("El numero mayor es el " + numero3);
+document.write("<br>")
 // Ejercicio 8
 numero1 = parseInt(prompt("Dame un numero"));
 if (numero1 % 2 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2");
-else document.write("<br>El numero " + numero1 + " no es divisible por 2");
+  document.write("El numero " + numero1 + " es divisible por 2");
+else document.write("El numero " + numero1 + " no es divisible por 2");
+document.write("<br>")
 // Ejercicio 9 
 // No sabia si podia usar bucles asi que me termine deciciendo por hacerlo asi jajaja
 let frase = prompt("Elige una frase de un maximo de 20 caracteres");
@@ -532,20 +537,22 @@ if (
   frase.charAt(i) == "Ú"
 )
   document.write(frase.charAt(i));
+  document.write("<br>")
 // Ejercicio 10
 numero1 = parseInt(prompt("Dame un numero"));
 if (numero1 % 2 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2");
+  document.write("El numero " + numero1 + " es divisible por 2");
 else if (numero1 % 3 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 3");
+  document.write("El numero " + numero1 + " es divisible por 3");
 else if (numero1 % 5 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 5");
+  document.write("El numero " + numero1 + " es divisible por 5");
 else if (numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 7");
+  document.write("El numero " + numero1 + " es divisible por 7");
 else
   document.write(
-    "<br>El numero " + numero1 + " no es divisible por 2, 3, 5 o 7"
+    "El numero " + numero1 + " no es divisible por 2, 3, 5 o 7"
   );
+  document.write("<br>")
 // Ejercicio 11
 numero1 = parseInt(prompt("Dame un numero"));
 if (
@@ -554,36 +561,36 @@ if (
   numero1 % 5 === 0 &&
   numero1 % 7 === 0
 )
-  document.write("<br>El numero " + numero1 + " es divisible por 2, 3, 5 y 7");
+  document.write("El numero " + numero1 + " es divisible por 2, 3, 5 y 7");
 else if (numero1 % 2 === 0 && numero1 % 3 === 0 && numero1 % 5 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2, 3 y 5");
+  document.write("El numero " + numero1 + " es divisible por 2, 3 y 5");
 else if (numero1 % 2 === 0 && numero1 % 3 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2, 3 y 7");
+  document.write("El numero " + numero1 + " es divisible por 2, 3 y 7");
 else if (numero1 % 2 === 0 && numero1 % 5 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2, 5 y 7");
+  document.write("El numero " + numero1 + " es divisible por 2, 5 y 7");
 else if (numero1 % 3 === 0 && numero1 % 5 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 3, 5 y 7");
+  document.write("El numero " + numero1 + " es divisible por 3, 5 y 7");
 else if (numero1 % 2 === 0 && numero1 % 3 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2 y 3");
+  document.write("El numero " + numero1 + " es divisible por 2 y 3");
 else if (numero1 % 2 === 0 && numero1 % 5 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2 y 5");
+  document.write("El numero " + numero1 + " es divisible por 2 y 5");
 else if (numero1 % 2 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2 y 7");
+  document.write("El numero " + numero1 + " es divisible por 2 y 7");
 else if (numero1 % 3 === 0 && numero1 % 5 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 3 y 5");
+  document.write("El numero " + numero1 + " es divisible por 3 y 5");
 else if (numero1 % 3 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 3 y 7");
+  document.write("El numero " + numero1 + " es divisible por 3 y 7");
 else if (numero1 % 5 === 0 && numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 5 y 7");
+  document.write("El numero " + numero1 + " es divisible por 5 y 7");
 else if (numero1 % 2 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 2");
+  document.write("El numero " + numero1 + " es divisible por 2");
 else if (numero1 % 3 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 3");
+  document.write("El numero " + numero1 + " es divisible por 3");
 else if (numero1 % 5 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 5");
+  document.write("El numero " + numero1 + " es divisible por 5");
 else if (numero1 % 7 === 0)
-  document.write("<br>El numero " + numero1 + " es divisible por 7");
+  document.write("El numero " + numero1 + " es divisible por 7");
 else
   document.write(
-    "<br>El numero " + numero1 + " no es divisible por 2, 3, 5 o 7"
+    "El numero " + numero1 + " no es divisible por 2, 3, 5 o 7"
   );
